@@ -1,4 +1,4 @@
-/* Function parses through passed string array for options and returns integer, where every bit represents
+/* Function parses through passed string array for letters and returns integer, where every bit represents
 one letter in alphabetical order. Function stops parsing if the string does not start with a '-' character.
 Add -lm option when compiling to link libm. */
 
