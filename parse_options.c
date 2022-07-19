@@ -20,7 +20,7 @@ int parse_options(char ***argv) {
 			index = 0;
 			for (index; ALPHABET[index] && ***argv; index += 1)
 				if (***argv == ALPHABET[index]) {
-					options |= 1 << (ALPHABET[index] - 97);
+					options |= 1 << index;
 					break;
 				}
 		}
